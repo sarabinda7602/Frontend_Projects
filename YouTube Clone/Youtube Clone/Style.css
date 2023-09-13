@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:"Roboto",sans-serif ;
+    line-height: 1.3;
+    font-weight: 300;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.youtube-logo img{
+    height: 50px;
+    margin-left: -10px;
+}
+.search-icon img{
+    height: 30px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    border: 0.5px solid #c5b1b1 ;
+
+   
+}
+.search input{
+    height: 30px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.search{
+    display: flex;
+    padding: 0px 20px;
+    
+}
+
+.mic img{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f1efef;
+}
+.avatar img{
+    height: 25px;
+    width: 25px;
+}
+.side-nav img{
+    width: 25px;
+}
+.side-nav{
+    padding: 10px 0px;
+    margin-left: 55px;
+}
+.side-nav i{
+    margin: 0px 8px;
+}
+
+/* TAG SECTION : */
+.tags{
+    margin: -10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    border-top: 0.5px solid #f1efef;
+    margin-bottom: 10px;
+}
+.item1{
+    margin-top: 10px;
+    background-color:#f1efef;
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 18px;
+    
+}
+.dark{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+}
+
+/* for left tags : */
+.left-tags{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+    margin-right: 0px;
+}
+.container{
+    display: flex;
+}
+.left-tags img{
+    width: 25px;
+    
+}
+.right-bar img{
+    width: 25px;
+    margin-top: 4px;
+    margin-right: 43px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: -20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.icon p{
+    font-size: 8px;
+    padding-bottom: 20px;
+}
+.p-padding{
+    /* margin-right: 10px; */
+}
+.main-container{
+    width: 100%;
+    background-color: #f1efef;
+}
+.bottom-avatar img{
+    width: 20px;
+}
+.content h3{
+    font-size: 13px;
+}
+.channel-name{
+    font-size: 10px;
+    font-weight: 530;
+}
+.channel-status{
+    font-size: 10px;
+}
+.content{
+    display: flex;
+    gap: 5px;
+}
+.bottom-content h3{
+    margin-bottom: 2px;
+}
+.channel-name{
+    margin-bottom: 2px;
+}
+.channel-status{
+    margin-bottom: 20px;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+}
+.vid iframe{
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
